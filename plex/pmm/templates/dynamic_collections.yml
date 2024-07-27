@@ -17,7 +17,9 @@ templates:
     visible_library: false
     visible_shared: false
     visible_home: false
-    schedule: monthly(16)
+    schedule:
+      - non_existing
+      - monthly(16)
 
   Per_Genre:
     smart_filter:
@@ -33,6 +35,7 @@ templates:
     visible_shared: false
     visible_home: false
     schedule:
+      - non_existing
       - weekly(monday)
       - weekly(thursday)
 
@@ -50,6 +53,7 @@ templates:
     visible_shared: false
     visible_home: false
     schedule:
+      - non_existing
       - weekly(saturday)
 
   Per_Language:
@@ -65,5 +69,6 @@ templates:
     visible_shared: false
     visible_home: false
     schedule:
+      - non_existing
       - weekly(sunday)
 

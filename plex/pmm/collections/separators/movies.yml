@@ -29,7 +29,7 @@ collections:
     minimum_items: 1
     delete_below_minimum: false # Don't delete the placeholder
     url_poster: https://raw.githubusercontent.com/nwithan8/configs/master/plex/pmm/images/separators/holidays.jpg
-    tmdb_movie: https://www.themoviedb.org/movie/671 # Harry Potter and the Philosopher's Stone (2001)
+    tmdb_movie: https://www.themoviedb.org/movie/157336 # Interstellar
 
   "Collections":
     template: { name: Collection,

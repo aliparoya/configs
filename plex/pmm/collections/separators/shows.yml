@@ -16,7 +16,7 @@ collections:
     delete_below_minimum: false # Don't delete the placeholder
     url_poster: https://raw.githubusercontent.com/nwithan8/configs/master/plex/pmm/images/separators/awards.jpg
     tvdb_show:
-      - https://thetvdb.com/series/the-simpsons # The Simpsons
+      - https://thetvdb.com/series/family-guy # Family Guys
 
   "Holidays":
     template: { name: Holiday,
@@ -30,7 +30,7 @@ collections:
     delete_below_minimum: false # Don't delete the placeholder
     url_poster: https://raw.githubusercontent.com/nwithan8/configs/master/plex/pmm/images/separators/holidays.jpg
     tvdb_show:
-      - https://thetvdb.com/series/the-simpsons # The Simpsons
+      - https://thetvdb.com/series/family-guy # Family Guys
 
   "Collections":
     template: { name: Collection,
@@ -44,7 +44,7 @@ collections:
     delete_below_minimum: false # Don't delete the placeholder
     url_poster: https://raw.githubusercontent.com/nwithan8/configs/master/plex/pmm/images/separators/collections.jpg
     tvdb_show:
-      - https://thetvdb.com/series/the-simpsons # The Simpsons
+      - https://thetvdb.com/series/family-guy # Family Guys
 
   "Franchises":
     template: { name: Franchise,
@@ -58,7 +58,7 @@ collections:
     delete_below_minimum: false # Don't delete the placeholder
     url_poster: https://raw.githubusercontent.com/nwithan8/configs/master/plex/pmm/images/separators/franchises.jpg
     tvdb_show:
-      - https://thetvdb.com/series/the-simpsons # The Simpsons
+      - https://thetvdb.com/series/family-guy # Family Guys
 
   "Genres":
     template: { name: Genre,
@@ -72,7 +72,7 @@ collections:
     delete_below_minimum: false # Don't delete the placeholder
     url_poster: https://raw.githubusercontent.com/nwithan8/configs/master/plex/pmm/images/separators/genres.jpg
     tvdb_show:
-      - https://thetvdb.com/series/the-simpsons # The Simpsons
+      - https://thetvdb.com/series/family-guy # Family Guys
 
   "Decades":
     template: { name: Decade,
@@ -86,7 +86,7 @@ collections:
     delete_below_minimum: false # Don't delete the placeholder
     url_poster: https://raw.githubusercontent.com/nwithan8/configs/master/plex/pmm/images/separators/decades.jpg
     tvdb_show:
-      - https://thetvdb.com/series/the-simpsons # The Simpsons
+      - https://thetvdb.com/series/family-guy # Family Guys
 
   "Networks":
     template: { name: Network,

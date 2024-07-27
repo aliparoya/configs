@@ -426,52 +426,6 @@ collections:
     visible_library: range(02/01-03/05)
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/bafta/winner.jpg
 
-  # This year's Berlinale nominees
-  # Only visible on home screen during Berlinale season
-  "🇩🇪 This Year's Berlinale Nominees":
-    summary: "Who will take home the trophy?"
-    template: { name: Award,
-                level: "+++" }
-    imdb_award:
-      event_id: ev0000091
-      event_year: latest
-      winning: false
-      limit: 10000
-      sort_by: release.desc
-    schedule: # February to early March (multiple days)
-      - yearly(02/01)
-      - all[weekly(friday),range(02/01-03/07)]
-      - yearly(03/08)
-      # You have to schedule it to run before and after visibility timeframe for visibility to switch
-    collection_order: random
-    visible_home: range(02/01-03/07)
-    visible_shared: range(02/01-03/07)
-    visible_library: range(02/01-03/07)
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/berlinale/nomination.jpg
-
-  # All past Berlinale-winning movies
-  # Only visible on home screen during Berlinale season
-  "🇩🇪 Past Berlinale Winners":
-    summary: "The Berlin International Film Festival, usually called the Berlinale, is a film festival held annually in Berlin, Germany."
-    template: { name: Award,
-                level: "++" }
-    imdb_award:
-      event_id: ev0000091
-      event_year: all
-      winning: true
-      limit: 10000
-      sort_by: release.desc
-    schedule: # February to early March (multiple days)
-      - yearly(02/01)
-      - all[weekly(friday),range(02/01-03/07)]
-      - yearly(03/08)
-      # You have to schedule it to run before and after visibility timeframe for visibility to switch
-    collection_order: release.desc
-    visible_home: false
-    visible_shared: false
-    visible_library: range(02/01-03/07)
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/berlinale/winner.jpg
-
   # This year's Cannes nominees
   # Only visible on home screen during Cannes season
   "🕊️ This Year's Cannes Nominees":
@@ -517,52 +471,6 @@ collections:
     visible_shared: false
     visible_library: range(05/01-06/09)
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cannes/winner.jpg
-
-  # This year's Cesars nominees
-  # Only visible on home screen during Cesars season
-  "🇫🇷 This Year's Cesar Award Nominees":
-    summary: "Who will take home the trophy?"
-    template: { name: Award,
-                level: "+++" }
-    imdb_award:
-      event_id: ev0000157
-      event_year: latest
-      winning: false
-      limit: 10000
-      sort_by: release.desc
-    schedule: # February (multiple days)
-      - yearly(02/01)
-      - all[weekly(friday),range(02/01-03/02)]
-      - yearly(03/03)
-      # You have to schedule it to run before and after visibility timeframe for visibility to switch
-    collection_order: random
-    visible_home: range(02/01-03/02)
-    visible_shared: range(02/01-03/02)
-    visible_library: range(02/01-03/02)
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cesar/nomination.jpg
-
-  # All past Cesar Award-winning movies
-  # Only visible on home screen during Cesar Award season
-  "🇫🇷 Past Cesar Award Winners":
-    summary: "The César Award is the national film award of France. It is delivered in the Nuit des César ceremony and was first awarded in 1976."
-    template: { name: Award,
-                level: "++" }
-    imdb_award:
-      event_id: ev0000157
-      event_year: all
-      winning: true
-      limit: 10000
-      sort_by: release.desc
-    schedule: # February (multiple days)
-      - yearly(02/01)
-      - all[weekly(friday),range(02/01-03/02)]
-      - yearly(03/03)
-      # You have to schedule it to run before and after visibility timeframe for visibility to switch
-    collection_order: release.desc
-    visible_home: false
-    visible_shared: false
-    visible_library: range(02/01-03/02)
-    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/cesar/winner.jpg
 
   # This year's Sundance nominees
   # Only visible on home screen during Sundance season

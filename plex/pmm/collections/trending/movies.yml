@@ -13,9 +13,27 @@ collections:
       - https://trakt.tv/users/nwithan8/lists/in-cinemas-united-states
     collection_order: release.desc
     visible_library: true
-    visible_home: true
-    visible_shared: true
-
+    visible_home:
+     - monthly(2)
+     - monthly(16)
+     - monthly(29)
+     - monthly(8)
+     - monthly(13)
+     - monthly(24)
+     - monthly(5)
+     - monthly(18)
+     - monthly(25)
+    visible_shared:
+     - monthly(2)
+     - monthly(16)
+     - monthly(29)
+     - monthly(8)
+     - monthly(13)
+     - monthly(24)
+     - monthly(5)
+     - monthly(18)
+     - monthly(25)
+     
   # Trending online
   "📈 Trending Now":
     template: { name: Chart,
@@ -28,22 +46,23 @@ collections:
     collection_order: custom
     sync_mode: sync
     visible_library: true
-    visible_home: true
-    visible_shared: true
-
-  # Trending on Plex
-  "👀 What Everyone Is Watching":
-    template: { name: Chart,
-                level: "++" }
-    summary: "What other subscribers are checking out"
-    libraries: "Movies"  # Only consider movies in the Movies library (even when building this collection for 4K Movies)
-    url_poster: https://i.imgur.com/vyFG5o7.png
-    sync_mode: sync
-    collection_order: custom
-    tautulli_popular:
-      list_days: 30
-      list_size: 15
-      list_minimum: 2
-    visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home:
+     - monthly(2)
+     - monthly(17)
+     - monthly(27)
+     - monthly(8)
+     - monthly(11)
+     - monthly(25)
+     - monthly(6)
+     - monthly(16)
+     - monthly(22)
+    visible_shared:
+     - monthly(2)
+     - monthly(17)
+     - monthly(27)
+     - monthly(8)
+     - monthly(11)
+     - monthly(25)
+     - monthly(6)
+     - monthly(16)
+     - monthly(22)

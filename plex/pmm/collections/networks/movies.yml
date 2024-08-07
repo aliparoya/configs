@@ -48,9 +48,21 @@ collections:
                 studio: ["A24"],
                 poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/studio/A24.jpg }
     summary: "A24 Films"
-    visible_library: false
-    visible_home: false
-    visible_shared: false
+    visible_library: true
+    visible_home:
+     - monthly(3)
+     - monthly(14)
+     - monthly(21)
+     - monthly(4)
+     - monthly(13)
+     - monthly(20)
+    visible_shared:
+     - monthly(3)
+     - monthly(14)
+     - monthly(21)
+     - monthly(4)
+     - monthly(13)
+     - monthly(20)
 
   "Aardman":
     template: { name: Studio,
@@ -201,9 +213,21 @@ collections:
                 studio: ["DreamWorks Studio", "DreamWorks Animation", "DreamWorks Pictures"],
                 poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/studio/DreamWorks%20Studios.jpg }
     summary: "DreamWorks"
-    visible_library: false
-    visible_home: false
-    visible_shared: false
+    visible_library: true
+    visible_home:
+     - monthly(3)
+     - monthly(14)
+     - monthly(21)
+     - monthly(4)
+     - monthly(13)
+     - monthly(20)
+    visible_shared:
+     - monthly(3)
+     - monthly(14)
+     - monthly(21)
+     - monthly(4)
+     - monthly(13)
+     - monthly(20)
 
   "e0ne":
     template: { name: Studio,
@@ -768,9 +792,21 @@ collections:
                 studio: ["Universal Animation Studios"],
                 poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/studio/Universal%20Animation%20Studios.jpg }
     summary: "Universal Animation Studios"
-    visible_library: false
-    visible_home: false
-    visible_shared: false
+    visible_library: true
+    visible_home:
+     - monthly(3)
+     - monthly(14)
+     - monthly(21)
+     - monthly(4)
+     - monthly(13)
+     - monthly(20)
+    visible_shared:
+     - monthly(3)
+     - monthly(14)
+     - monthly(21)
+     - monthly(4)
+     - monthly(13)
+     - monthly(20)
 
   "Universal":
     template: { name: Studio,

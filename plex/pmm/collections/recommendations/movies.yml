@@ -11,5 +11,23 @@ collections:
       - https://trakt.tv/users/nwithan8/lists/recommendations-plex-sync?sort=popularity,asc
     collection_order: release.desc
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home:
+     - monthly(5)
+     - monthly(12)
+     - monthly(28)
+     - monthly(4)
+     - monthly(19)
+     - monthly(24)
+     - monthly(3)
+     - monthly(11)
+     - monthly(30)
+    visible_shared:
+     - monthly(5)
+     - monthly(12)
+     - monthly(28)
+     - monthly(4)
+     - monthly(19)
+     - monthly(24)
+     - monthly(3)
+     - monthly(11)
+     - monthly(30)

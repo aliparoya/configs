@@ -16,8 +16,20 @@ collections:
     collection_order: random
     # default schedule
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home:
+     - monthly(6)
+     - monthly(15)
+     - monthly(22)
+     - monthly(2)
+     - monthly(20)
+     - monthly(31)
+    visible_shared:
+     - monthly(6)
+     - monthly(15)
+     - monthly(22)
+     - monthly(2)
+     - monthly(20)
+     - monthly(31)
 
   # Movies with a perfect RT score, updated monthly
   "💯 The 100 Club":
@@ -30,8 +42,20 @@ collections:
     collection_order: random
     # default schedule
     visible_library: true
-    visible_home: false
-    visible_shared: false
+    visible_home:
+     - monthly(8)
+     - monthly(19)
+     - monthly(28)
+     - monthly(9)
+     - monthly(12)
+     - monthly(30)
+    visible_shared:
+     - monthly(8)
+     - monthly(19)
+     - monthly(28)
+     - monthly(9)
+     - monthly(12)
+     - monthly(30)
 
   # Worst movies of all time, updated monthly
   "💩 Just the Worst":
@@ -46,8 +70,20 @@ collections:
     collection_order: random
     # default schedule
     visible_library: true
-    visible_home: false
-    visible_shared: false
+    visible_home:
+     - monthly(1)
+     - monthly(14)
+     - monthly(24)
+     - monthly(9)
+     - monthly(11)
+     - monthly(29)
+    visible_shared:
+     - monthly(1)
+     - monthly(14)
+     - monthly(24)
+     - monthly(9)
+     - monthly(11)
+     - monthly(29)
 
     # Biggest box office bombs, according to Wikipedia, updated monthly
   "💣 Box Office Bombs":
@@ -60,9 +96,20 @@ collections:
     collection_order: random
     # default schedule
     visible_library: true
-    visible_home: false
-    visible_shared: false
-
+    visible_home:
+     - monthly(1)
+     - monthly(19)
+     - monthly(30)
+     - monthly(7)
+     - monthly(12)
+     - monthly(23)
+    visible_shared:
+     - monthly(1)
+     - monthly(19)
+     - monthly(30)
+     - monthly(7)
+     - monthly(12)
+     - monthly(23)
   ### PODCASTS ###
 
   "👍 Best Movie Ever":
@@ -74,8 +121,20 @@ collections:
     collection_order: random
     schedule: daily
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home:
+     - monthly(4)
+     - monthly(11)
+     - monthly(27)
+     - monthly(3)
+     - monthly(12)
+     - monthly(28)
+    visible_shared:
+     - monthly(4)
+     - monthly(11)
+     - monthly(27)
+     - monthly(3)
+     - monthly(12)
+     - monthly(28)
 
   "🎙️ Nate Reviews":
     template: { name: Collection,
@@ -87,8 +146,20 @@ collections:
     collection_order: custom
     schedule: daily
     visible_library: true
-    visible_home: false
-    visible_shared: false
+    visible_home:
+     - monthly(10)
+     - monthly(12)
+     - monthly(26)
+     - monthly(9)
+     - monthly(11)
+     - monthly(27)
+    visible_shared:
+     - monthly(10)
+     - monthly(12)
+     - monthly(26)
+     - monthly(9)
+     - monthly(11)
+     - monthly(27)
 
   ### LISTS ###
 
@@ -103,8 +174,20 @@ collections:
     collection_order: random
     schedule: monthly(03)
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home:
+     - monthly(9)
+     - monthly(11)
+     - monthly(27)
+     - monthly(9)
+     - monthly(12)
+     - monthly(25)
+    visible_shared:
+     - monthly(9)
+     - monthly(11)
+     - monthly(27)
+     - monthly(9)
+     - monthly(12)
+     - monthly(25)
 
   "🪣 100 Movies Bucket List":
     template: { name: Collection,
@@ -117,8 +200,20 @@ collections:
     collection_order: custom
     schedule: monthly(04)
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home:
+     - monthly(3)
+     - monthly(18)
+     - monthly(21)
+     - monthly(10)
+     - monthly(12)
+     - monthly(24)
+    visible_shared:
+     - monthly(3)
+     - monthly(18)
+     - monthly(21)
+     - monthly(10)
+     - monthly(12)
+     - monthly(24)
 
   "📽️ The Criterion Collection":
     template: { name: Collection,
@@ -130,8 +225,20 @@ collections:
     collection_order: critic_rating.desc
     # default schedule
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home:
+     - monthly(7)
+     - monthly(19)
+     - monthly(26)
+     - monthly(4)
+     - monthly(15)
+     - monthly(23)
+    visible_shared:
+     - monthly(7)
+     - monthly(19)
+     - monthly(26)
+     - monthly(4)
+     - monthly(15)
+     - monthly(23)
 
   ### GENERAL ###
 
@@ -145,8 +252,20 @@ collections:
     collection_order: random
     # default schedule
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home:
+     - monthly(1)
+     - monthly(12)
+     - monthly(23)
+     - monthly(4)
+     - monthly(11)
+     - monthly(27)
+    visible_shared:
+     - monthly(1)
+     - monthly(12)
+     - monthly(23)
+     - monthly(4)
+     - monthly(11)
+     - monthly(27)
 
   "️❌ Cancelled":
     template: { name: Collection,
@@ -158,8 +277,20 @@ collections:
     collection_order: random
     # default schedule
     visible_library: true
-    visible_home: false
-    visible_shared: false
+    visible_home:
+     - monthly(3)
+     - monthly(16)
+     - monthly(25)
+     - monthly(4)
+     - monthly(12)
+     - monthly(29)
+    visible_shared:
+     - monthly(3)
+     - monthly(16)
+     - monthly(25)
+     - monthly(4)
+     - monthly(12)
+     - monthly(29)
 
   ### FRANCHISES ###
 
@@ -173,8 +304,20 @@ collections:
     collection_order: release
     # default schedule
     visible_library: true
-    visible_home: false
-    visible_shared: false
+    visible_home:
+     - monthly(6)
+     - monthly(17)
+     - monthly(29)
+     - monthly(10)
+     - monthly(18)
+     - monthly(20)
+    visible_shared:
+     - monthly(6)
+     - monthly(17)
+     - monthly(29)
+     - monthly(10)
+     - monthly(18)
+     - monthly(20)
 
   "🦸 I Love You 3000":
     template: { name: Franchise,
@@ -187,8 +330,20 @@ collections:
     collection_order: release
     # default schedule
     visible_library: true
-    visible_home: false
-    visible_shared: false
+    visible_home:
+     - monthly(4)
+     - monthly(11)
+     - monthly(28)
+     - monthly(9)
+     - monthly(13)
+     - monthly(27)
+    visible_shared:
+     - monthly(4)
+     - monthly(11)
+     - monthly(28)
+     - monthly(9)
+     - monthly(13)
+     - monthly(27)
 
   "🦸 Tell Me, Do You Bleed?":
     template: { name: Franchise,
@@ -201,8 +356,20 @@ collections:
     collection_order: release
     # default schedule
     visible_library: true
-    visible_home: false
-    visible_shared: false
+    visible_home:
+     - monthly(2)
+     - monthly(19)
+     - monthly(28)
+     - monthly(9)
+     - monthly(13)
+     - monthly(22)
+    visible_shared:
+     - monthly(2)
+     - monthly(19)
+     - monthly(28)
+     - monthly(9)
+     - monthly(13)
+     - monthly(22)
 
   "🧙‍♂️ Yer a Wizard Harry":
     template: { name: Franchise,
@@ -215,8 +382,20 @@ collections:
     collection_order: release
     # default schedule
     visible_library: true
-    visible_home: false
-    visible_shared: false
+    visible_home:
+     - monthly(10)
+     - monthly(18)
+     - monthly(21)
+     - monthly(1)
+     - monthly(15)
+     - monthly(22)
+    visible_shared:
+     - monthly(10)
+     - monthly(18)
+     - monthly(21)
+     - monthly(1)
+     - monthly(15)
+     - monthly(22)
 
   "🪐 To Boldly Go":
     summary: "The Star Trek collection"
@@ -229,8 +408,20 @@ collections:
     collection_order: release
     # default schedule
     visible_library: true
-    visible_home: false
-    visible_shared: false
+    visible_home:
+     - monthly(10)
+     - monthly(20)
+     - monthly(29)
+     - monthly(6)
+     - monthly(18)
+     - monthly(23)
+    visible_shared:
+     - monthly(10)
+     - monthly(20)
+     - monthly(29)
+     - monthly(6)
+     - monthly(18)
+     - monthly(23)
 
   "🚀 In A Galaxy Far, Far Away":
     summary: "The Star Wars collection"
@@ -243,8 +434,20 @@ collections:
     collection_order: custom
     # default schedule
     visible_library: true
-    visible_home: false
-    visible_shared: false
+    visible_home:
+     - monthly(2)
+     - monthly(16)
+     - monthly(29)
+     - monthly(4)
+     - monthly(20)
+     - monthly(20)
+    visible_shared:
+     - monthly(2)
+     - monthly(16)
+     - monthly(29)
+     - monthly(4)
+     - monthly(20)
+     - monthly(20)
 
 
   "🦎 King of The Monsters":
@@ -273,8 +476,20 @@ collections:
     collection_order: random
     # default schedule
     visible_library: true
-    visible_home: false
-    visible_shared: false
+    visible_home:
+     - monthly(4)
+     - monthly(19)
+     - monthly(24)
+     - monthly(5)
+     - monthly(16)
+     - monthly(25)
+    visible_shared:
+     - monthly(4)
+     - monthly(19)
+     - monthly(24)
+     - monthly(5)
+     - monthly(16)
+     - monthly(25)
 
   "🐦‍⬛ Quoth the Raven":
     name_mapping: "Edgar Allan Poe Collection"
@@ -303,6 +518,18 @@ collections:
       sort_by: release.asc
     # default schedule
     visible_library: true
-    visible_home: false
-    visible_shared: false
+    visible_home:
+     - monthly(1)
+     - monthly(15)
+     - monthly(30)
+     - monthly(10)
+     - monthly(16)
+     - monthly(22)
+    visible_shared:
+     - monthly(1)
+     - monthly(15)
+     - monthly(30)
+     - monthly(10)
+     - monthly(16)
+     - monthly(22)
 

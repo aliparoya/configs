@@ -12,8 +12,14 @@ collections:
       - https://trakt.tv/users/lish408/lists/stand-up-comedy-specials
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home:
+     - monthly(5)
+     - monthly(19)
+     - monthly(26)
+    visible_shared:
+     - monthly(5)
+     - monthly(19)
+     - monthly(26)
 
   "😜 Spoofs and Parodies":
     template: { name: Genre,
@@ -24,8 +30,14 @@ collections:
       - https://trakt.tv/users/majeed_pk/lists/spoof-parody-films
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home:
+     - monthly(7)
+     - monthly(15)
+     - monthly(22)
+    visible_shared:
+     - monthly(7)
+     - monthly(15)
+     - monthly(22)
 
   "👩‍❤️‍💋‍👨 Rom-com Central":
     template: { name: Genre,
@@ -36,8 +48,14 @@ collections:
       - https://trakt.tv/users/lish408/lists/rotten-tomatoes-the-200-best-romantic-comedies-of-all-time
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home:
+     - monthly(1)
+     - monthly(13)
+     - monthly(31)
+    visible_shared:
+     - monthly(1)
+     - monthly(13)
+     - monthly(31)
 
   "🏀 Slam Dunk":
     template: { name: Genre,
@@ -47,8 +65,14 @@ collections:
     mdblist_list: https://mdblist.com/lists/hdlists/150-best-sports-movies-of-all-time
     collection_order: random
     visible_library: true
-    visible_home: false  # Not advertised on the home page
-    visible_shared: false  # Not advertised on the home page
+    visible_home:
+     - monthly(10)
+     - monthly(11)
+     - monthly(27)
+    visible_shared:
+     - monthly(10)
+     - monthly(11)
+     - monthly(27)
 
   "🚓 Get In Get Out":
     template: { name: Genre,
@@ -58,8 +82,14 @@ collections:
     mdblist_list: https://mdblist.com/lists/hdlists/best-heist-movies-of-all-time
     collection_order: random
     visible_library: true
-    visible_home: false  # Not advertised on the home page
-    visible_shared: false  # Not advertised on the home page
+    visible_home:
+     - monthly(8)
+     - monthly(15)
+     - monthly(27)
+    visible_shared:
+     - monthly(8)
+     - monthly(15)
+     - monthly(27)
 
   "🎢 On The Edge Of Your Seat":
     template: { name: Genre,
@@ -73,8 +103,14 @@ collections:
       rating.gte: 5.0
     collection_order: random
     visible_library: true
-    visible_home: false  # Not advertised on the home page
-    visible_shared: false  # Not advertised on the home page
+    visible_home:
+     - monthly(2)
+     - monthly(17)
+     - monthly(23)
+    visible_shared:
+     - monthly(2)
+     - monthly(17)
+     - monthly(23)
 
   "🤯 What a Twist!":
     template: { name: Genre,
@@ -84,8 +120,14 @@ collections:
     mdblist_list: https://mdblist.com/lists/hdlists/crazy-plot-twists
     collection_order: random
     visible_library: true
-    visible_home: false  # Not advertised on the home page
-    visible_shared: false  # Not advertised on the home page
+    visible_home:
+     - monthly(3)
+     - monthly(15)
+     - monthly(21)
+    visible_shared:
+     - monthly(3)
+     - monthly(15)
+     - monthly(21)
 
   "📗 Based On A True Story":
     template: { name: Genre,
@@ -95,8 +137,14 @@ collections:
       - https://trakt.tv/users/k0meta/lists/movies-based-on-true-stories
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home:
+     - monthly(8)
+     - monthly(20)
+     - monthly(30)
+    visible_shared:
+     - monthly(8)
+     - monthly(20)
+     - monthly(30)
 
   "📖 The Book Was Better":
     template: { name: Genre,
@@ -107,8 +155,14 @@ collections:
       - https://trakt.tv/users/k0meta/lists/movies-based-on-books
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home:
+     - monthly(3)
+     - monthly(20)
+     - monthly(22)
+    visible_shared:
+     - monthly(3)
+     - monthly(20)
+     - monthly(22)
 
   "🕹️ Arrow In The Knee":
     template: { name: Genre,
@@ -119,8 +173,14 @@ collections:
       - https://trakt.tv/users/k0meta/lists/movies-based-on-video-games
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home:
+     - monthly(3)
+     - monthly(17)
+     - monthly(21)
+    visible_shared:
+     - monthly(3)
+     - monthly(17)
+     - monthly(21)
 
   "💬 With Great Power...":
     template: { name: Genre,
@@ -131,8 +191,14 @@ collections:
       - https://trakt.tv/users/k0meta/lists/movies-based-on-comics
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home:
+     - monthly(8)
+     - monthly(19)
+     - monthly(21)
+    visible_shared:
+     - monthly(8)
+     - monthly(19)
+     - monthly(21)
 
   "👾 Monsters vs. Aliens":
     template: { name: Genre,
@@ -146,8 +212,14 @@ collections:
       - https://trakt.tv/users/twentywashere/lists/welcome-to-earth-alien-invasions
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home:
+     - monthly(6)
+     - monthly(11)
+     - monthly(21)
+    visible_shared:
+     - monthly(6)
+     - monthly(11)
+     - monthly(21)
 
   "🔍 A Real-Life Whodunnit":
     template: { name: Genre,
@@ -158,8 +230,14 @@ collections:
       - https://trakt.tv/users/lish408/lists/true-crime-documentary-series-film
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home:
+     - monthly(1)
+     - monthly(17)
+     - monthly(24)
+    visible_shared:
+     - monthly(1)
+     - monthly(17)
+     - monthly(24)
 
   "👨‍🍳 Bon Appetit":
     template: { name: Genre,
@@ -169,8 +247,14 @@ collections:
       - https://trakt.tv/users/majeed_pk/lists/bon-appetit
     collection_order: random
     visible_library: true
-    visible_home: false  # Not advertised on the home page
-    visible_shared: false  # Not advertised on the home page
+    visible_home:
+     - monthly(2)
+     - monthly(12)
+     - monthly(22)
+    visible_shared:
+     - monthly(2)
+     - monthly(12)
+     - monthly(22)
 
   "📄 Documentaries":
     template: { name: Genre,
@@ -181,8 +265,14 @@ collections:
       - https://trakt.tv/users/majeed_pk/lists/documentaries
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home:
+     - monthly(6)
+     - monthly(19)
+     - monthly(26)
+    visible_shared:
+     - monthly(6)
+     - monthly(19)
+     - monthly(26)
 
   "🧥 I'm Gonna Make Him an Offer":
     template: { name: Genre,
@@ -192,8 +282,14 @@ collections:
       - https://trakt.tv/users/majeed_pk/lists/the-complete-list-of-mafia-gangsters-movies
     collection_order: random
     visible_library: true
-    visible_home: false  # Not advertised on the home page
-    visible_shared: false  # Not advertised on the home page
+    visible_home:
+     - monthly(7)
+     - monthly(15)
+     - monthly(24)
+    visible_shared:
+     - monthly(7)
+     - monthly(15)
+     - monthly(24)
 
   # TODO: Might time out due to size
   # "🧑 It Really Happened":
@@ -216,8 +312,14 @@ collections:
       - https://trakt.tv/users/majeed_pk/lists/existentialist-films
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home:
+     - monthly(7)
+     - monthly(19)
+     - monthly(22)
+    visible_shared:
+     - monthly(7)
+     - monthly(19)
+     - monthly(22)
 
   "⚖️ Order In The Court":
     template: { name: Genre,
@@ -228,8 +330,14 @@ collections:
       - https://trakt.tv/users/majeed_pk/lists/courtroom-dramas
     collection_order: random
     visible_library: true
-    visible_home: false  # Not advertised on the home page
-    visible_shared: false  # Not advertised on the home page
+    visible_home:
+     - monthly(1)
+     - monthly(11)
+     - monthly(23)
+    visible_shared:
+     - monthly(1)
+     - monthly(11)
+     - monthly(23)
 
   "🪖 World War II, In Order":
     template: { name: Genre,
@@ -240,8 +348,14 @@ collections:
       - https://trakt.tv/users/majeed_pk/lists/world-war-ii-in-chronological-order
     collection_order: custom  # Maintain the order of the list
     visible_library: true
-    visible_home: false  # Not advertised on the home page
-    visible_shared: false  # Not advertised on the home page
+    visible_home:
+     - monthly(1)
+     - monthly(14)
+     - monthly(21)
+    visible_shared:
+     - monthly(1)
+     - monthly(14)
+     - monthly(21)
 
   "🙂 Feel-Good Movies":
     template: { name: Genre,
@@ -252,8 +366,14 @@ collections:
       - https://trakt.tv/users/majeed_pk/lists/feelgood-movies
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home:
+     - monthly(10)
+     - monthly(19)
+     - monthly(24)
+    visible_shared:
+     - monthly(10)
+     - monthly(19)
+     - monthly(24)
 
   "🧘 Enjoy The Weekend":
     template: { name: Genre,
@@ -277,8 +397,14 @@ collections:
       - https://trakt.tv/users/majeed_pk/lists/the-weirdo-s-videostore
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home:
+     - monthly(10)
+     - monthly(15)
+     - monthly(24)
+    visible_shared:
+     - monthly(10)
+     - monthly(15)
+     - monthly(24)
 
   "⁉️ Controversial Cinema":
     template: { name: Genre,

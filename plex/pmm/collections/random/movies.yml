@@ -18,8 +18,8 @@ collections:
         unplayed: true
       limit: 10
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home: weekly(sunday|tuesday|thursday)
+    visible_shared: weekly(sunday|tuesday|thursday)
 
   # Random list of 30 movies released in the last 5 months and added in the last 2 months
   # Regenerates every time the user visits the page
@@ -37,5 +37,5 @@ collections:
         added: 60
       limit: 30
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home: weekly(saturday|monday|wednesday|friday)
+    visible_shared: weekly(saturday|monday|wednesday|friday)
